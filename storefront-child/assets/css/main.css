@@ -1,0 +1,19 @@
+#city_list {
+    min-height: 130px;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+#city_select {
+    margin-bottom: 20px;
+}
+
+.loading {
+    background: url(../img/loading.gif) no-repeat;
+    background-size: auto 50px;
+    background-position: center center;
+}
+
+.hide > * {
+    visibility: hidden;
+}
